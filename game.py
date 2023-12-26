@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-words = ["python", "hangman", "programming", "computer", "game"]
+words = ["monkey", "lion", "", "computer", "game"]
 chosen_word = random.choice(words).lower()
 guessed_letters = set()
 attempts = 6
